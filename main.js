@@ -25,7 +25,7 @@ function rand(min,max) {
 let numoft = prompt('Введите количество примеров')
 
 function opfinal(){
-    let oprand=rand(1,5)
+    let oprand=rand(1,4)
     let op;
     if (oprand ==1){
         op='+'
