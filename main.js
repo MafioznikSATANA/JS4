@@ -22,7 +22,7 @@ function rand(min,max) {
     return Math.floor(Math.random() * (max + 1 - min ) + min )
 }
 
-let numoft = +prompt('Введите количество примеров')
+let numoft = prompt('Введите количество примеров')
 
 function opfinal(){
     let oprand=rand(1,5)
@@ -47,7 +47,7 @@ for (let a = 0; a < numoft; a++) {
     
     alert(final);
     let result = eval(final)
-    let tf=+prompt('Введите ответ')
+    let tf=prompt('Введите ответ')
     if (result==tf){
         alert(`Ваш ответ верный - ${result}`)
     }else{
